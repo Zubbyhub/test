@@ -1,0 +1,119 @@
+element.style {
+    height: 601.92px;
+}
+@media screen and (max-width: 1148px) {
+    .expandRight .big-preview-resume-wrap .thumb-preview, .expandRight .big-preview-resume-wrap .thumb-preview-larg {
+        width: 293px !important;
+    }
+}
+.big-preview.tips-popup-cntc .thumb-preview {
+    top: 0 !important;
+}
+@media screen and (max-width: 1180px) {
+    .big-preview .big-preview-resume-wrap .thumb-preview, .big-preview .big-preview-resume-wrap .thumb-preview-larg {
+        width: 370px;
+    }
+}
+.big-preview .big-preview-resume-wrap .thumb-preview, .big-preview .big-preview-resume-wrap .thumb-preview-larg {
+    float: none;
+    width: 445px;
+    height: 593px;
+    margin-bottom: 0;
+    cursor: default;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s linear;
+    transform-origin: 0;
+    min-height: 593px;
+}
+@media (max-width: 991px) {
+    .thumb-preview {
+        width: 224px;
+        height: 290px;
+    }
+}
+.thumb-preview {
+    width: 319px;
+    height: 424px;
+    box-shadow: 0 2px 11px rgba(1, 1, 1, 0.28);
+    background-color: #ffffff;
+    border: none;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Select-menu, .DraftEditor-root, .custom__menu-list, .custom-scroll {
+    -webkit-region-fragment: none;
+}
+style
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+style
+body {
+    line-height: 1;
+    text-align: left;
+    font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" off;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: start;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.thumb-preview:after {
+    display: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.Select-menu::-webkit-scrollbar, .DraftEditor-root::-webkit-scrollbar, .custom__menu-list::-webkit-scrollbar, .custom-scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+}
+.Select-menu::-webkit-scrollbar-thumb, .DraftEditor-root::-webkit-scrollbar-thumb, .custom__menu-list::-webkit-scrollbar-thumb, .custom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #b9b9b9;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.Select-menu::-webkit-scrollbar-track, .DraftEditor-root::-webkit-scrollbar-track, .custom__menu-list::-webkit-scrollbar-track, .custom-scroll::-webkit-scrollbar-track {
+    padding: 1px;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 6px #fff;
+    box-shadow: inset 0 0 0 6px #fff;
+}
